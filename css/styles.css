@@ -16,9 +16,11 @@ line-height: 22px;
 font-family: "Rubik","Arial" "sans-serif";
 color: #4a4b4C;
 background-color: #fff;
+text-decoration: none;
+list-style: none;
 }
 img{
-  height:auto
+height:auto
 min-width: 100%;
 }
 .container{
@@ -28,4 +30,93 @@ min-width: 100%;
  padding-left: 20px;
  margin-left: auto;
  min-width: 1240px;
+}
+.site-header {
+}
+.site-header-top {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+  padding-top: 30px;
+  width: auto;
+  height: 105px;
+}
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+.container {
+}
+.site-header-logo{
+  background-color: #fff;
+  display: flex;
+  padding: 8px 6px;
+  border-radius: 7px;
+  margin-right: 35px;
+}
+.site-header-logo:hover{
+  opacity: 0.8;
+}
+.site-header-logo:active{
+  opacity: 0.6;
+}
+.logo-img {
+}
+.currency-rates {
+  display: flex;
+  align-items:center;
+   margin: 0;
+   padding: 0;
+   margin-right: auto;
+  list-style: none;
+}
+.currency-rates-item:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-rates-type {
+  color: #2959CE;
+}
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #DCE6FF;
+  margin-right: 25px;
+
+}
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  align-items:center;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 30px;
+  color:#a6a6a6;
+  text-align: center;
+}
+.lang-toggle-link-active {
+  background-color: #fff;
+  color: #000
+}
+.button {
+display: inline-block;
+text-decoration: none;
+text-align: center;
+font-weight: 500px;
+font-size: 16px;
+border-radius:10px;
+padding: 13px 20px;
+cursor: pointer;
+line-height: normal;
+}
+
+.button-primary {
+  background-color: #7296EC;
+  color: #fff;
+}
+.button-primary:hover{
+  opacity: 0.8;
+}
+.button-primary:active{
+  opacity: 0.6;
 }
